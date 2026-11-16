@@ -1,0 +1,22 @@
+Lazo U01-U01 rechazado?      true
+Duplicado U02-U01 rechazado? true
+
+=== RED SOCIAL: ConectaAmbato ===
+Usuarios (vertices): 6
+Amistades (aristas): 5
+
+Lista de adyacencia:
+  U01 Mateo    | grado 3 | amigos: U02 (Camila), U03 (Sofia), U04 (Andres)
+  U02 Camila   | grado 2 | amigos: U01 (Mateo), U03 (Sofia)
+  U03 Sofia    | grado 2 | amigos: U02 (Camila), U01 (Mateo)
+  U04 Andres   | grado 2 | amigos: U01 (Mateo), U05 (Valeria)
+  U05 Valeria  | grado 1 | amigos: U04 (Andres)
+  U06 Joaquin  | grado 0 | amigos: (ninguno)
+
+Verificacion de condiciones:
+  [OK] Exactamente 6 usuarios
+  [OK] Exactamente 5 amistades
+  [OK] Al menos un ciclo de 3 o mas vertices
+  [OK] Al menos un usuario aislado (grado 0)
+  [OK] Al menos un usuario con grado >= 3
+  [OK] Suma de grados (10) = 2 x aristas (10)
